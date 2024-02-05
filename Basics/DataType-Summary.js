@@ -11,3 +11,17 @@
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+// Heap And Stack Concept
+
+// let primitive = "Ateeq"
+// let PrimitiveTest = primitive
+// PrimitiveTest = "Aslam"
+
+// console.table({primitive,PrimitiveTest});
+
+// let NonPrimitive = new String("Ateeq")
+// let NonPrimitiveTest = NonPrimitive
+// NonPrimitiveTest = new String("Aslam")
+
+// console.table({NonPrimitive,NonPrimitiveTest});
