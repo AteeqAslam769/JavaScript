@@ -15,10 +15,15 @@ const myObj1 = {
     salary:"Alhamdullilah",
     wow: function (){console.log(this)},
 }
-myObj1.wow()
-myObj.wow()
+// myObj1.wow()
+// myObj.wow()
 
-const check = (x,y) =>(x+y)
-p=check(3,6)
-console.log(p);
+// const check = (x,y) =>(x+y)
+// p=check(3,6)
+// console.log(p);
 
+// IIFE (Immediately Invoked Function Expression)
+
+((name) => {
+    console.log(`${name}`);
+})('Ateeq');
